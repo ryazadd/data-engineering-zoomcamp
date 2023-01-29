@@ -4,6 +4,7 @@ locals {
 
 variable "project" {
   description = "Your GCP Project ID"
+  default = "graceful-mile-376222"
 }
 
 variable "region" {
